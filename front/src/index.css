@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Google Sans 18pt";
+  src: url("https://db.onlinewebfonts.com/t/2080986ee6c0208ec6e2ffe3005d9947.eot");
+  src: url("https://db.onlinewebfonts.com/t/2080986ee6c0208ec6e2ffe3005d9947.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/2080986ee6c0208ec6e2ffe3005d9947.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/2080986ee6c0208ec6e2ffe3005d9947.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/2080986ee6c0208ec6e2ffe3005d9947.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/2080986ee6c0208ec6e2ffe3005d9947.svg#Google Sans 18pt")
+      format("svg");
+}
+
+@import url(https://db.onlinewebfonts.com/c/2080986ee6c0208ec6e2ffe3005d9947?family=Google+Sans+18pt);
+
+* {
+  font-family: "Google Sans 18pt", sans-serif!important;
+}
