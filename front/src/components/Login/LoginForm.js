@@ -114,21 +114,21 @@ function LoginForm() {
             >
                 <Form className='formContainer gradient-custom' >
                     <label>Username: </label>
-                    <ErrorMessage name="username" component="span" />
                     <Field 
                     id="inputCreateItem" 
                     name="username" 
                     placeholder="Username" 
                     />
+                    <ErrorMessage style={{color: 'red', paddingBottom: '10px'}} name="username" component="span" />
                     <label>Password: </label>
-                    <ErrorMessage name="password" component="span" />
                     <Field 
                     id="inputCreateItem" 
                     name="password" 
                     type="password"
                     placeholder="*****" 
                     />
-                
+                    <ErrorMessage style={{color: 'red'}} name="password" component="span" />
+                    
                     <button type="submit" >
                         Login
                     </button>

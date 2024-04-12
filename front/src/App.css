@@ -135,7 +135,7 @@
 
 .createItemPage {
   font-family: Futura, Avenir, Helvetica, sans-serif;
-  color: white;
+  /* color: white; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -147,7 +147,8 @@
   width: 500px;
   height: auto;
   padding: 20px;
-  border: 5px solid #00C9FF;
+  /* border: 5px solid #00C9FF; */
+  border: 2px solid #a6a6a6;
   border-radius: 15px;
 }
 

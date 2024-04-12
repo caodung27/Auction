@@ -41,9 +41,9 @@ function AddPhotos() {
           <br />
           <Typography sx={{fontFamily: 'Futura'}} variant="h7" component="h2">Add Photos to your Auction</Typography>
           <br />
-          <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• Photos help buyers that are interested get a better idea of the condition and dimensions of the item.</Typography>
-          <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• Make sure to provide clear pictures, preferably in natural lighting conditions for better results.</Typography>
-          <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• Proofs of authenticity are also a plus.</Typography>
+          <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• Lorem Ipsum is simply dummy text of the printing.</Typography>
+          <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• Lorem Ipsum is simply dummy text of the printing.</Typography>
+          <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• Lorem Ipsum is simply dummy text of the printing.</Typography>
           <br />
           <PhotoUpload itemid={id} />
 

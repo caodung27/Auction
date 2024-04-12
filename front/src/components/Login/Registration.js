@@ -44,8 +44,8 @@ function Registration() {
         email: "",
         telephone: "",
         location: "",
-        country: "Greece",
         taxnumber: "",
+        country: "Vietnam",
     };
 
     // REGEX for the telephone validation
@@ -81,14 +81,13 @@ function Registration() {
         latitude: Yup.number("This is a number").moreThan(-90).lessThan(90),
         longitude: Yup.number("This is a number").moreThan(-180).lessThan(180),
         location: Yup.string().min(3).max(155).required("You must input a location."),
-        country: Yup.string().required("You must input your country."),
         taxnumber: Yup.number().required("You must input your tax number.").positive().integer().lessThan(1000000000, "This is not valid").moreThan(99999999, "This is not valid"),
+        country: Yup.string().required("You must input your country."),
     });
 
     const onSubmit = (data) =>{
         setHoldData(data);
         setOpenDialog(true);
-        
     };
 
     const handleChange  = (country) =>{
@@ -137,81 +136,88 @@ function Registration() {
         >
             <Form className='formContainer gradient-custom' >
                 <label>Username: </label>
-                <ErrorMessage name="username" component="span" />
                 <Field 
                 id="inputCreateItem" 
                 name="username" 
                 placeholder="Username" 
                 />
+                <ErrorMessage style={{color: 'red', paddingBottom: '10px'}} name="username" component="span" />
+
                 <label>Password: </label>
-                <ErrorMessage name="password" component="span" />
                 <Field 
                 id="inputCreateItem" 
                 name="password" 
                 type="password"
                 placeholder="*****" 
                 />
+                <ErrorMessage style={{color: 'red', paddingBottom: '10px'}} name="password" component="span" />
+
                 <label>Confirm Password: </label>
-                <ErrorMessage name="confirmPassword" component="span" />
                 <Field 
                 id="inputCreateItem" 
                 name="confirmPassword" 
                 type="password"
                 placeholder="*****" 
                 />
+                <ErrorMessage style={{color: 'red', paddingBottom: '10px'}} name="confirmPassword" component="span" />
+
                 <label>Name: </label>
-                <ErrorMessage name="name" component="span" />
                 <Field 
                 id="inputCreateItem" 
                 name="name" 
                 placeholder="Name" 
                 />
+                <ErrorMessage style={{color: 'red', paddingBottom: '10px'}} name="name" component="span" />
+
                 <label>Surname: </label>
-                <ErrorMessage name="surname" component="span" />
                 <Field 
                 id="inputCreateItem" 
                 name="surname" 
                 placeholder="Surname" 
                 />
+                <ErrorMessage style={{color: 'red', paddingBottom: '10px'}} name="surname" component="span" />
+
                 <label>Email: </label>
-                <ErrorMessage name="email" component="span" />
                 <Field 
                 id="inputCreateItem" 
                 name="email" 
                 placeholder="Email" 
                 />
+                <ErrorMessage style={{color: 'red', paddingBottom: '10px'}} name="email" component="span" />
+
                 <label>Telephone: </label>
-                <ErrorMessage name="telephone" component="span" />
                 <Field 
                 id="inputCreateItem" 
                 name="telephone" 
                 placeholder="Telephone" 
                 />
+                <ErrorMessage style={{color: 'red', paddingBottom: '10px'}} name="telephone" component="span" />
                 
-                <label>ΑΦΜ: </label>
-                <ErrorMessage name="taxnumber" component="span" />
+                <label>Tax: </label>
                 <Field 
                 id="inputCreateItem" 
                 name="taxnumber" 
                 placeholder="Taxnumber" 
                 />
+                <ErrorMessage style={{color: 'red', paddingBottom: '10px'}} name="taxnumber" component="span" />
 
                 <label>Location: </label>
-                <ErrorMessage name="location" component="span" />
                 <Field 
                 id="inputCreateItem" 
                 name="location" 
                 placeholder="City" 
                 />
+                <ErrorMessage style={{color: 'red', paddingBottom: '10px'}} name="location" component="span" />
+                
                 <label>Country: </label>
-                <ErrorMessage name="country" component="span" />
-
+                
                 <CountryDropdown 
                 id="inputCreateItem" 
                 name="country"
                 value={mycountry}
                 onChange={(e) => handleChange(e)}
                 />
+                <ErrorMessage style={{color: 'red', paddingBottom: '10px'}} name="country" component="span" />
                 
                 <button type="submit">
                     Confirm

@@ -1181,19 +1181,19 @@ function Item() {
                             <div style={{ marginLeft: 216 }}>
                             <AssuredWorkloadIcon sx={{ fontSize: 100 , color: '#00C9FF' }}  /> 
                             </div>
-                            <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h7" component="h2">Shop With Confidence</Typography>
-                            <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• Trusted sellers, fast shipping, and easy returns </Typography>
-                            <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• Get the item you ordered or require your money back </Typography>
-                            <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• Ratings help track the quality provided by the seller  </Typography>
+                            <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h7" component="h2">Lorem Ipsum</Typography>
+                            <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• Lorem ipsum is placeholder text commonly used </Typography>
+                            <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• Lorem ipsum is placeholder text commonly used </Typography>
+                            <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• Lorem ipsum is placeholder text commonly used  </Typography>
                             <br />
                             <br />
                             <div style={{ marginLeft: 216 }}>
                             <PrivacyTipIcon sx={{ fontSize: 100, color: '#00C9FF' }} /> 
                             </div>
-                            <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h7" component="h2">What to know before bidding</Typography>
-                            <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• The payment has to be confirmed within a week </Typography>
-                            <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• Please allow additional time for international delivery</Typography>
-                            <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• Be aware of shipments from abroad subject to customs</Typography>
+                            <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h7" component="h2">Lorem Ipsum</Typography>
+                            <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• Lorem ipsum is placeholder text commonly used </Typography>
+                            <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• Lorem ipsum is placeholder text commonly used</Typography>
+                            <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• Lorem ipsum is placeholder text commonly used</Typography>
                             <br />     
 
 

@@ -29,19 +29,19 @@ function Login() {
                     <div style={{ marginLeft: 220 }}>
                     <ShoppingBagIcon sx={{ fontSize: 100 , color: '#00C9FF' }}  /> 
                     </div>
-                    <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h7" component="h2">Reasons to sign up with us</Typography>
-                    <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• A wide variety of products to choose from </Typography>
-                    <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• You are in control of the price of your listings </Typography>
-                    <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• We don't share your data, your privacy is important </Typography>
+                    <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h7" component="h2">Lorem Ipsum</Typography>
+                    <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• Lorem Ipsum is simply dummy text of the printing </Typography>
+                    <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• Lorem Ipsum is simply dummy text of the printing </Typography>
+                    <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• Lorem Ipsum is simply dummy text of the printing </Typography>
                     <br />
                     <br />
                     <div style={{ marginLeft: 220 }}>
                     <AssignmentIndIcon sx={{ fontSize: 100, color: '#00C9FF' }} /> 
                     </div>
-                    <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h7" component="h2">When you fill the application form</Typography>
-                    <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• Make sure that the information is accurate</Typography>
-                    <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• Choose a username that represents you</Typography>
-                    <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• Don't use personal information for the password</Typography>
+                    <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h7" component="h2">Lorem Ipsum</Typography>
+                    <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• Lorem Ipsum is simply dummy text of the printing</Typography>
+                    <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• Lorem Ipsum is simply dummy text of the printing</Typography>
+                    <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• Lorem Ipsum is simply dummy text of the printing</Typography>
                     <br />       
                    
                 </Grid>
