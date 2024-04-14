@@ -1179,7 +1179,7 @@ function Item() {
                         <br />
                             <br />
                             <div style={{ marginLeft: 216 }}>
-                            <AssuredWorkloadIcon sx={{ fontSize: 100 , color: '#00C9FF' }}  /> 
+                            <AssuredWorkloadIcon sx={{ fontSize: 100 , color: '#ee4d2deb' }}  /> 
                             </div>
                             <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h7" component="h2">Lorem Ipsum</Typography>
                             <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• Lorem ipsum is placeholder text commonly used </Typography>
@@ -1188,7 +1188,7 @@ function Item() {
                             <br />
                             <br />
                             <div style={{ marginLeft: 216 }}>
-                            <PrivacyTipIcon sx={{ fontSize: 100, color: '#00C9FF' }} /> 
+                            <PrivacyTipIcon sx={{ fontSize: 100, color: '#ee4d2deb' }} /> 
                             </div>
                             <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h7" component="h2">Lorem Ipsum</Typography>
                             <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• Lorem ipsum is placeholder text commonly used </Typography>

@@ -73,7 +73,7 @@ function Auctions() {
               </div>
               <div className='footer gradient-custom'>
                   <div > {value.location}, {value.country}</div> 
-                  <div style={{ color: '#14b6e3' }}> {value.currently} $ &nbsp;&nbsp;</div>
+                  <div style={{ color: '#ee4d2d' }}> {value.currently} $ &nbsp;&nbsp;</div>
               </div>
               </div>
     });
@@ -95,15 +95,15 @@ function Auctions() {
         <div className="container" style={{
             marginTop: 3,
           }}>
-          <Header text={<ComputerIcon style={{ color: '#00C9FF'}} />}  />
-          <Header text={<PhotoCameraIcon style={{ color: '#00C9FF'}} />} />
-          <Header text={<HandymanIcon style={{ color: '#00C9FF'}} />} />
-          <Header text={<PetsIcon style={{ color: '#00C9FF'}} />} />
+          <Header text={<ComputerIcon style={{ color: '#ee4d2d'}} />}  />
+          <Header text={<PhotoCameraIcon style={{ color: '#ee4d2d'}} />} />
+          <Header text={<HandymanIcon style={{ color: '#ee4d2d'}} />} />
+          <Header text={<PetsIcon style={{ color: '#ee4d2d'}} />} />
           <CategoriesSelect setSelectedCategory={setSelectedCategory} />
-          <Header text={<ColorLensIcon style={{ color: '#00C9FF'}} />} />
-          <Header text={<SnowboardingIcon style={{ color: '#00C9FF'}} />} />
-          <Header text={<TwoWheelerIcon style={{ color: '#00C9FF'}} />} />
-          <Header text={<CheckroomIcon style={{ color: '#00C9FF'}} />} />
+          <Header text={<ColorLensIcon style={{ color: '#ee4d2d'}} />} />
+          <Header text={<SnowboardingIcon style={{ color: '#ee4d2d'}} />} />
+          <Header text={<TwoWheelerIcon style={{ color: '#ee4d2d'}} />} />
+          <Header text={<CheckroomIcon style={{ color: '#ee4d2d'}} />} />
         </div>
 
         <div className="search">

@@ -31,7 +31,7 @@ function Navbar(props) {
         {!authState.status ? (
           <>
             {props.clicked === "home" ? (
-              <Link style={{ color: "rgba(0, 0, 0, 0.36)" }} to="/">
+              <Link style={{ color: "rgba(0, 0, 0, 0.5)" }} to="/">
                 Home
               </Link>
             ) : (
@@ -40,7 +40,7 @@ function Navbar(props) {
               </Link>
             )}
             {props.clicked === "login" ? (
-              <Link style={{ color: "rgba(0, 0, 0, 0.36)" }} to="/login">
+              <Link style={{ color: "rgba(0, 0, 0, 0.5)" }} to="/login">
                 Login/Register
               </Link>
             ) : (
@@ -49,7 +49,7 @@ function Navbar(props) {
               </Link>
             )}
             {props.clicked === "auctions" ? (
-              <Link style={{ color: "rgba(0, 0, 0, 0.36)" }} to="/auctions">
+              <Link style={{ color: "rgba(0, 0, 0, 0.5)" }} to="/auctions">
                 Auctions
               </Link>
             ) : (
@@ -58,7 +58,7 @@ function Navbar(props) {
               </Link>
             )}
             {props.clicked === "search" ? (
-              <Link style={{ color: "rgba(0, 0, 0, 0.36)" }} to="/search">
+              <Link style={{ color: "rgba(0, 0, 0, 0.5)" }} to="/search">
                 Search&nbsp;&nbsp;&nbsp;
               </Link>
             ) : (
@@ -74,7 +74,7 @@ function Navbar(props) {
               <>
                 {props.clicked === "mail" ? (
                   <div style={{ marginTop: 6 }}>
-                    <Link style={{ color: "rgba(0, 0, 0, 0.36)" }} to="/mail">
+                    <Link style={{ color: "rgba(0, 0, 0, 0.5)" }} to="/mail">
                       <MailIcon color="white" />
                     </Link>
                   </div>
@@ -97,7 +97,7 @@ function Navbar(props) {
                 )}
 
                 {props.clicked === "home" ? (
-                  <Link style={{ color: "rgba(0, 0, 0, 0.36)" }} to="/">
+                  <Link style={{ color: "rgba(0, 0, 0, 0.5)" }} to="/">
                     Home
                   </Link>
                 ) : (
@@ -108,7 +108,7 @@ function Navbar(props) {
 
                 {props.clicked === "createitem" ? (
                   <Link
-                    style={{ color: "rgba(0, 0, 0, 0.36)" }}
+                    style={{ color: "rgba(0, 0, 0, 0.5)" }}
                     to="/createitem"
                   >
                     Create
@@ -122,7 +122,7 @@ function Navbar(props) {
             ) : (
               <>
                 {props.clicked === "users" ? (
-                  <Link style={{ color: "rgba(0, 0, 0, 0.36)" }} to="/users">
+                  <Link style={{ color: "rgba(0, 0, 0, 0.5)" }} to="/users">
                     Users
                   </Link>
                 ) : (
@@ -132,7 +132,7 @@ function Navbar(props) {
                 )}
                 {props.clicked === "addcategory" ? (
                   <Link
-                    style={{ color: "rgba(0, 0, 0, 0.36)" }}
+                    style={{ color: "rgba(0, 0, 0, 0.5)" }}
                     to="/addcategory"
                   >
                     Categories
@@ -143,7 +143,7 @@ function Navbar(props) {
                   </Link>
                 )}
                 {props.clicked === "export" ? (
-                  <Link style={{ color: "rgba(0, 0, 0, 0.36)" }} to="/export">
+                  <Link style={{ color: "rgba(0, 0, 0, 0.5)" }} to="/export">
                     Export
                   </Link>
                 ) : (
@@ -155,7 +155,7 @@ function Navbar(props) {
             )}
 
             {props.clicked === "auctions" ? (
-              <Link style={{ color: "rgba(0, 0, 0, 0.36)" }} to="/auctions">
+              <Link style={{ color: "rgba(0, 0, 0, 0.5)" }} to="/auctions">
                 Auctions
               </Link>
             ) : (
@@ -164,7 +164,7 @@ function Navbar(props) {
               </Link>
             )}
             {props.clicked === "search" ? (
-              <Link style={{ color: "rgba(0, 0, 0, 0.36)" }} to="/search">
+              <Link style={{ color: "rgba(0, 0, 0, 0.5)" }} to="/search">
                 Search&nbsp;&nbsp;&nbsp;
               </Link>
             ) : (

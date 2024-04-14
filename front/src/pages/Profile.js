@@ -127,7 +127,7 @@ function Profile() {
                     </div>
                     <div className='footer gradient-custom'>
                         <div > {value.location}, {value.country}</div> 
-                        <div style={{ color: '#14b6e3' }}> {value.currently} $ &nbsp;&nbsp;</div>
+                        <div style={{ color: '#ee4d2d' }}> {value.currently} $ &nbsp;&nbsp;</div>
                     </div>
                     </div>
             ;

@@ -22,12 +22,12 @@ function Login() {
 
             <Grid container  direction={"row"} spacing={1.35}>
                 <Grid item>
-                    <Typography sx={{ fontSize: 20, fontFamily: 'Futura', textAlign: 'center', color: '#00C9FF' }} gutterBottom>Already have an Account?</Typography>
+                    <Typography sx={{ fontSize: 20, fontFamily: 'Futura', textAlign: 'center', color: '#ee4d2d' }} gutterBottom>Already have an Account?</Typography>
                     <LoginForm />
                     <br />
                     <br />
                     <div style={{ marginLeft: 220 }}>
-                    <ShoppingBagIcon sx={{ fontSize: 100 , color: '#00C9FF' }}  /> 
+                    <ShoppingBagIcon sx={{ fontSize: 100 , color: '#ee4d2d' }}  /> 
                     </div>
                     <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h7" component="h2">Lorem Ipsum</Typography>
                     <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• Lorem Ipsum is simply dummy text of the printing </Typography>
@@ -36,7 +36,7 @@ function Login() {
                     <br />
                     <br />
                     <div style={{ marginLeft: 220 }}>
-                    <AssignmentIndIcon sx={{ fontSize: 100, color: '#00C9FF' }} /> 
+                    <AssignmentIndIcon sx={{ fontSize: 100, color: '#ee4d2d' }} /> 
                     </div>
                     <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h7" component="h2">Lorem Ipsum</Typography>
                     <Typography sx={{fontFamily: 'Futura', width: '100%'}} variant="h6" component="h2">• Lorem Ipsum is simply dummy text of the printing</Typography>
@@ -46,7 +46,7 @@ function Login() {
                    
                 </Grid>
                 <Grid item>
-                    <Typography sx={{ fontSize: 20, fontFamily: 'Futura', textAlign: 'center', color: '#00C9FF' }} gutterBottom>Register for an Account!</Typography>
+                    <Typography sx={{ fontSize: 20, fontFamily: 'Futura', textAlign: 'center', color: '#ee4d2d' }} gutterBottom>Register for an Account!</Typography>
                     <Registration />
                 </Grid>
             </Grid>

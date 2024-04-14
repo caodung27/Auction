@@ -9,7 +9,7 @@ function valuetext(value) {
 
 const PrettoSlider = styled(Slider)({
     // color: '#52af77',
-    color: '#5fdaf9',
+    color: '#fb5533',
     height: 8,
     '& .MuiSlider-track': {
       border: 'none',
@@ -35,7 +35,7 @@ const PrettoSlider = styled(Slider)({
       height: 32,
       borderRadius: '50% 50% 50% 0',
       // backgroundColor: '#52af77',
-      backgroundColor: '#5fdaf9',
+      backgroundColor: '#fb5533',
       transformOrigin: 'bottom left',
       transform: 'translate(50%, -100%) rotate(-45deg) scale(0)',
       '&:before': { display: 'none' },

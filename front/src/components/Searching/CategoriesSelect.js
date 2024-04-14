@@ -35,9 +35,9 @@ export default function CategoriesSelect(props) {
           height: 45,
           p: 1,
           m: 1,
-          color: '#00C9FF',
+          color: '#ee4d2d',
           '&:hover': {
-            backgroundColor: '#00C9FF',
+            backgroundColor: '#ee4d2d',
             color: 'white',
           },
           bgcolor: (theme) =>
@@ -71,7 +71,7 @@ export default function CategoriesSelect(props) {
       </DialogContent>
       <DialogActions>
         <button className="buttonitoReverse" onClick={handleClose}>Cancel</button>
-        <button className="buttonito"  onClick={handleConfirm} autoFocus>Confirm</button>
+        <button className="buttonito" onClick={handleConfirm} autoFocus>Confirm</button>
       </DialogActions>
     </Dialog>
     </>

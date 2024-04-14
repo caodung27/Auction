@@ -72,9 +72,9 @@ export default function ApplyFilters(props) {
           height: 45,
           p: 1,
           m: 1,
-          color: '#00C9FF',
+          color: '#ee4d2d',
           '&:hover': {
-            backgroundColor: '#00C9FF',
+            backgroundColor: '#ee4d2d',
             color: 'white',
           },
           bgcolor: (theme) =>
@@ -123,7 +123,7 @@ export default function ApplyFilters(props) {
             startAdornment: (
               <InputAdornment position="start">
                 
-                <LocationOnIcon sx={{color: 'rgb(70, 212, 248)' }} />
+                <LocationOnIcon sx={{color: '#fb5533' }} />
               </InputAdornment>
             ),
           }}

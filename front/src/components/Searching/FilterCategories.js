@@ -160,7 +160,7 @@ function FilterCategories() {
               </div>
               <div className='footer gradient-custom'>
                   <div > {value.location}, {value.country}</div> 
-                  <div style={{ color: '#14b6e3' }}> {value.currently} $ &nbsp;&nbsp;</div>
+                  <div style={{ color: '#ee4d2d' }}> {value.currently} $ &nbsp;&nbsp;</div>
               </div>
               </div>
     });
@@ -311,9 +311,9 @@ function FilterCategories() {
               height: 64,
               p: 1,
               m: 1,
-              color: '#00C9FF',
+              color: '#ee4d2d',
               '&:hover': {
-                backgroundColor: '#00C9FF',
+                backgroundColor: '#ee4d2d',
                 color: 'white',
               },
               bgcolor: (theme) =>

@@ -69,7 +69,7 @@
 .item .name {
   flex: 20%;
   border-bottom: 1px solid lightgray;
-  background-color: #00C9FF;
+  background-color: #ee4d2d;
   display: grid;
   place-content: center;
   color: white;
@@ -183,14 +183,14 @@
   margin-top: 15px;
   height: 40px;
   border: none;
-  background-color: #1dcaf9;
+  background-color: #ee4d2d;
   border-radius: 5px;
   color: white;
 }
 
 .formContainer button:hover {
   cursor: pointer;
-  background-color: rgb(37, 144, 252);
+  background-color: #fb5533;
 }
 
 .formContainer span {
@@ -251,7 +251,7 @@ a {
 .navbar button:hover {
   cursor: pointer;
   color: white;
-  background-color: #00C9FF ;
+  background-color: #777;
 }
 
 .navbar h1 {
@@ -347,20 +347,20 @@ button {
 }
 
 .placeBid button {
-  background-color: #00C9FF ;
+  background-color: #fb5533 ;
   width: 209px;
   color: white;
 }
 
 .placeBid button:hover {
   cursor: pointer;
-  background-color: rgb(37, 144, 252);
+  background-color: #ee4d2d;
 }
 
 .placeBid input {
   font-size: 22px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  border: 2px solid #00C9FF ;
+  border: 2px solid #ee4d2d;
 }
 
 .rightSide .listOfComments {
@@ -442,15 +442,15 @@ button {
   
   /* fallback for old browsers */
   /* background: #43e97b; */
-  background: #5fdaf9;
+  background: #ee4d2d;
 
   /* Chrome 10-25, Safari 5.1-6 */
   /* background: -webkit-linear-gradient(to right, rgba(67, 233, 123, 0.5), rgba(56, 249, 215, 0.5)); */
-  background: #5fdaf9;
+  background: #ee4d2d;
 
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   /* background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%); */
-  background: #5fdaf9;
+  background: #ee4d2d;
 }
 
 
@@ -526,14 +526,14 @@ button {
     font-family: Futura;
     height: 40px;
     border: none;
-    background-color: #1dcaf9;
+    background-color: #ee4d2d;
     border-radius: 5px;
     color: white;
 }
 
 .buttonito:hover {
   cursor: pointer;
-  background-color: rgb(61, 155, 248); 
+  background-color: #ff7337; 
 }
 
 .buttonitoSelect {
@@ -544,15 +544,15 @@ button {
   background-color: #ffffff;
   border-radius: 5px;
   /* border-color: rgb(58, 192, 105); */
-  border-color: rgb(70, 212, 248);
-  color: rgb(95, 218, 249);
+  /* border-color: black; */
+  color: black;
   /* color: rgb(58, 192, 105); */
 }
 
 .buttonitoSelect:hover {
 cursor: pointer;
 /* background-color: rgb(58, 192, 105);  */
-background-color: rgb(70, 212, 248);
+background-color: white;
 color: white;
 }
 
@@ -562,7 +562,7 @@ color: white;
   height: 40px;
   border: none;
   /* background-color: #b4f7ab; */
-  background-color: rgb(95, 218, 249);
+  background-color: #fb5533;
   border-radius: 5px;
   color: white;
 }
@@ -570,7 +570,7 @@ color: white;
 .buttonitoInfo:hover {
 cursor: pointer;
   /* background-color: rgb(58, 192, 105); */
-  background-color: rgb(70, 212, 248);  
+  background-color: #ee4d2d;  
 }
 
 .buttonitoReverse {
@@ -578,14 +578,14 @@ cursor: pointer;
   margin-top: 15px;
   height: 40px;
   border: none;
-  background-color: #f7cdab;
+  background-color: #777;
   border-radius: 5px;
   color: white;
 }
 
 .buttonitoReverse:hover {
   cursor: pointer;
-  background-color: #e6934f;
+  background-color: #333;
 }
 
 .headerito {
@@ -649,28 +649,28 @@ cursor: pointer;
   padding: 10px;
   margin: 2px;
   border-radius: 5px;
-  border: 1px solid #00C9FF;
-  color: #00C9FF;
+  border: 1px solid #ee4d2d;
+  color: #ee4d2d;
   cursor: pointer;
 }
 
 .paginationButtons a:hover {
   color: white;
-  background-color: #00C9FF;
+  background-color: #ee4d2d;
 }
 
 .paginationActive a {
   color: white;
-  background-color: #00C9FF;
+  background-color: #ee4d2d;
 }
 
 .paginationDisabled a {
-  color: #b4efff;
-  border: 1px solid #b4efff;
+  color: #ff7337;
+  border: 1px solid #ff7337;
 }
 
 .paginationDisabled a:hover {
   color: white;
   border: 1px solid white;
-  background-color: #b4efff;
+  background-color: #ff7337;
 }

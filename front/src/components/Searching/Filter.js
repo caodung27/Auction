@@ -74,9 +74,9 @@ export default function Filter() {
               height: 64,
               p: 1,
               m: 1,
-              color: '#00C9FF',
+              color: '#ee4d2d',
               '&:hover': {
-                backgroundColor: '#00C9FF',
+                backgroundColor: '#ee4d2d',
                 color: 'white',
               },
               bgcolor: (theme) =>
