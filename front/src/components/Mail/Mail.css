@@ -47,14 +47,14 @@
   font-family: Futura;
   height: 40px;
   border: none;
-  background-color: rgb(80, 211, 211);
+  background-color: #ee4d2d;
   border-radius: 5px;
   color: white;
 }
 
 .buttonitoMail:hover {
 cursor: pointer;
-background-color: teal;
+background-color: #db3615;
 }
 
 .buttonitoInfoMail {
